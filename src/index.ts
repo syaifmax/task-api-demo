@@ -1,6 +1,6 @@
 import express from 'express'
-import { taskRouter } from './routes/tasks'
-import { userRouter } from './routes/users'
+import { taskRouter } from './routes/tasks.js'
+import { userRouter } from './routes/users.js'
 
 const app = express()
 app.use(express.json())
